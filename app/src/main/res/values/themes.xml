@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.APLIKASI" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.APLIKASI" parent="Base.Theme.APLIKASI" />
+    <style name="Theme.APLIKASI.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/anjaflorist</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.APLIKASI</item>
+    </style>
+</resources>
