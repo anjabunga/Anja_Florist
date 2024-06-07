@@ -16,12 +16,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonOrderPage.setOnClickListener {
+        binding.buttonLogin.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
 
         }
-        binding.buttonAboutUsPage.setOnClickListener {
+        binding.buttonRegister.setOnClickListener {
             val intent = Intent(this, AboutUs::class.java)
             startActivity(intent)
         }
